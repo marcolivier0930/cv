@@ -1,0 +1,31 @@
+/* this is for the header*/
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  padding: 30px;
+  background: url(../images/bg-header.jpg) no-repeat center center;
+  height: 700px;
+  background-size: cover;
+}
+/* title header*/
+.name-header-container{
+  width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+  background: #5f2c82;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -moz-box-shadow: 5px 5px 2px 2px #000;
+  -webkit-box-shadow: 5px 5px 2px 2px #000;
+  box-shadow: 5px 5px 2px 2px #000;
+}
+.content-header-container{
+  color: white;
+  font-size: 20px;
+}
+.header{
+  color: white;
+  font-family: 'Righteous', cursive;
+}

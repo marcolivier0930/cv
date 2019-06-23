@@ -14,9 +14,9 @@ header{
   width: 500px;
   padding: 30px;
   border-radius: 10px;
-  background: #5f2c82;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*background: #5f2c82;*/  /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);*/  /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to right, #49a09d, #5f2c82);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -moz-box-shadow: 5px 5px 2px 2px #000;
   -webkit-box-shadow: 5px 5px 2px 2px #000;
   box-shadow: 5px 5px 2px 2px #000;
@@ -28,4 +28,26 @@ header{
 .header{
   color: white;
   font-family: 'Righteous', cursive;
+}
+hr{
+  width: 5%;
+  border-style: none;
+  border-color: #5f2c82;
+  border-width: 5px;
+  border-top-style: dotted;
+}
+/* all h3 headers*/
+h3{
+  color: #009975;
+}
+
+/* profile pic*/
+div .profile_pic{
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 350px;
+}
+li{
+  list-style-type: none;
 }

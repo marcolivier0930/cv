@@ -8,6 +8,9 @@
   <meta author="Marc Blanchard" />
   <link rel="stylesheet" href="index.css" />
   <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="favicon.ico">
   <title>Marc's Personal Portfolio</title>
 </head>
@@ -32,76 +35,83 @@
   <hr />
 
 <!-- These are the courses and the books that I read to learn them-->
-
-<h3><strong>Education and Courses</strong></h3>
-  <ul>
-    <li>Bunnell High School</li>
-    <li><em>The Complete 2019 Web Developer Bootcamp</em> by <strong>Angela Yu</strong></li>
-    <li><em>Learn Android Studio 3 with Kotlin</em> by <strong>Ted Hagos</strong></li>
-    <li><em>DSA</em> by <strong>Granville Barnett & Lucas Del Tongo</strong></li>
-    <li><em>Beginning JSON</em> by <strong>Bon Smith</strong></li>
-    <li><em>HTML & CSS</em> by <strong>Jon Duckett</strong></li>
-    <li><em>JavaScript & JQuery</em> by <strong>Jon Duckett</strong></li>
-    <li><em>Kotlin for Android Developers</em> by <strong>Antonio Leiva</strong></li>
-  </ul>
+<section class="">
+  <div class="edu-courses-container">
+    <h3 class="edu-header"><strong>Education and Courses</strong></h3>
+    <img src="open-magazine.png" alt="A vector picture of a book" class="open-maga" />
+      <ul>
+        <li>Bunnell High School</li>
+        <li><em>The Complete 2019 Web Developer Bootcamp</em> by <strong>Angela Yu</strong></li>
+        <li><em>Learn Android Studio 3 with Kotlin</em> by <strong>Ted Hagos</strong></li>
+        <li><em>DSA</em> by <strong>Granville Barnett & Lucas Del Tongo</strong></li>
+        <li><em>Beginning JSON</em> by <strong>Bon Smith</strong></li>
+        <li><em>HTML & CSS</em> by <strong>Jon Duckett</strong></li>
+        <li><em>JavaScript & JQuery</em> by <strong>Jon Duckett</strong></li>
+        <li><em>Kotlin for Android Developers</em> by <strong>Antonio Leiva</strong></li>
+      </ul>
+  </div>
+</section>
 
 <!-- I list the programming language that I learned-->
-
-  <h3>Programming Languages</h3>
-  <table cellspacing="10">
-    <thead>
+<section class="programming-languages">
+  <div class="programming-language-container">
+    <h3 class="header-pro">Programming Languages</h3>
+    <table cellspacing="10" class="table-pro">
+      <thead>
+        <tr>
+          <th>Position</th>
+          <th>Languages</th>
+        </tr>
+      </thead>
       <tr>
-        <th>Position</th>
-        <th>Languages</th>
+        <td>Front-End</td>
+        <td>HTML, CSS, JavaScript, JQuery, Vue.js</td>
       </tr>
-    </thead>
-    <tr>
-      <td>Front-End</td>
-      <td>HTML, CSS, JavaScript, JQuery, Vue.js</td>
-    </tr>
-    <tr>
-      <td>Back-End</td>
-      <td>Node.js, SQL, MongoDB, Databases</td>
-    </tr>
-  </table>
-
+      <tr>
+        <td>Back-End</td>
+        <td>Node.js, SQL, MongoDB, Databases</td>
+      </tr>
+    </table>
+  </div>
+</section>
 <!-- These are my skill and my level at them-->
-
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
+<div class="skills-container">
+  <h3 class="header-skills">Skills</h3>
+  <table cellspacing="10" class="table-skills">
+    <tr class="table-row">
       <td>HTML</td>
       <td>🔥🔥🔥🔥🔥</td>
     </tr>
-    <tr>
+    <tr class="table-row">
       <td>CSS</td>
       <td>🔥🔥🔥🔥</td>
     </tr>
-    <tr>
+    <tr class="table-row">
       <td>JavaScript</td>
-      <td>🔥🔥🔥🔥</td>
+      <td>🔥🔥🔥</td>
     </tr>
-    <tr>
+    <tr class="table-row">
       <td>Bootstrap</td>
       <td>🔥🔥🔥</td>
     </tr>
-    <tr>
-      <td>JQurey</td>
-      <td>🔥🔥🔥🔥</td>
+    <tr class="table-row">
+      <td>JQuery</td>
+      <td>🔥🔥🔥</td>
     </tr>
   </table>
+</div>
 
 <!-- These are my hobbies and a link to them-->
-
-<h3>My Hobbies</h3>
-  <ol>
-    <li><a href="https://www.crunchyroll.com/" target="_blank">Watch Anime</a></li>
-    <li><a href="https://www.dccomics.com/" target="_blank">Read Comics</a></li>
-    <li><a href="https://www.youtube.com/watch?v=f9fbqks3BS8" target="_blank">Tinker with Electronics Gadgets</a></li>
-  </ol>
-
-
+<div class="hobbies-container">
+  <h3 class="hobbies-header">My Hobbies</h3>
+    <ol class="ordered-list">
+      <li><a href="https://www.crunchyroll.com/" target="_blank">Watch Anime</a></li>
+      <li><a href="https://www.dccomics.com/" target="_blank">Read Comics</a></li>
+      <li><a href="https://www.youtube.com/watch?v=f9fbqks3BS8" target="_blank">Tinker with Electronics Gadgets</a></li>
+      <li><a href="../html/contact-me.html" title="Contact Me">Contact Me</a></li>
+      <li><a href="https://github.com/marcolivier0930" title="Marc's Github Account" target="_blank">Github Account</a></li>
+    </ol>
+</div>
 <!-- My contact information-->
-  <a href="../html/contact-me.html" title="Contact Me">Contact Me</a>
 </body>
 </html>

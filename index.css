@@ -1,7 +1,12 @@
-/* this is for the header*/
+/* this is for the header and body*/
+
 body{
   margin: 0;
   padding: 0;
+  background: #dff0ea;  /* fallback for old browsers */
+}
+p, h3, a{
+  padding-left: 20px;
 }
 header{
   padding: 30px;
@@ -36,17 +41,23 @@ hr{
   border-width: 5px;
   border-top-style: dotted;
 }
+
 /* all h3 headers*/
+
 h3{
   color: #009975;
 }
 
 /* profile pic*/
+
 div .profile_pic{
   border-radius: 50%;
   display: inline-block;
-  position: absolute;
-  top: 350px;
+  position: relative;
+  top: 50%;
+  margin-top: -20px;
+  left: 50%;
+  margin-left: -100px;
 }
 li{
   list-style-type: none;

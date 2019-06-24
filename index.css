@@ -3,14 +3,14 @@
 body{
   margin: 0;
   padding: 0;
-  background: #dff0ea;  /* fallback for old browsers */
+  background: black;  /* fallback for old browsers */
 }
 p, h3, a{
   padding-left: 20px;
 }
 header{
   padding: 30px;
-  background: url(bg-header.jpg) no-repeat center center;
+  background: url(bg-header.png) no-repeat center center;
   height: 700px;
   background-size: cover;
 }

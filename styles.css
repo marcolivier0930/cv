@@ -26,7 +26,7 @@
   font-size: 26px;
 }
 .edu-courses-container{
-  background-color: #263859;
+  background-color: #17223b;
   padding-bottom: 10px;
   padding-top: 5px;
 }
@@ -44,8 +44,13 @@
   background-color: #17223b;
   padding-bottom: 10px;
   color: white;
+  margin-bottom: 20px;
+  padding-top: 15px;
 }
-
+.rect-1{
+  position: absolute;
+  left: 10px;
+}
 .header-skills{
   text-align: center;
   font-family: 'Rajdhani', sans-serif;
@@ -65,22 +70,37 @@
   border-bottom-width: 5px;
 }
 .hobbies-container{
-  background-color: white;
+  background-color: #ff6768;
   margin-top: -20px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.programming-language-container{
+  background-color: #263859;
+  color: white;
+  height: 250px;
+}
+.programming-language{
+  background-color: #263859;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 5px;
 }
 .hobbies-header{
   text-align: center;
   font-family: 'Rajdhani', sans-serif;
   font-weight: bold;
   font-size: 26px;
+  color: white;
 }
 .ordered-list{
   text-align: center;
   display: inline;
   margin-bottom: 10px;
 }
+
+/* tag selectors*/
+
 a{
   color: blue;
   font-weight: bold;
@@ -93,8 +113,6 @@ a:hover{
   font-size: 18px;
   color: purple;
 }
-/* tag selectors*/
-
 
 ul li{
   text-align: center;

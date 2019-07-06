@@ -27,7 +27,7 @@ background: linear-gradient(to right, #414345, #4389A2); /* W3C, IE 10+/ Edge, F
   /*background: linear-gradient(to right, #49a09d, #5f2c82);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -moz-box-shadow: 5px 5px 2px 2px #000;
   -webkit-box-shadow: 5px 5px 2px 2px #000;
-  box-shadow: 5px 5px 2px 2px #000;
+  box-shadow: 5px 5px 2px 2px #fff;
 }
 .content-header-container{
   color: white;
